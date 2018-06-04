@@ -23,6 +23,8 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+
+      <a class="sidebar-nav-item{% if page.url contains site.blog_url %} active{% endif %}" href="{{ site.baseurl }}{{ site.blog_url }}">Blog</a>
     </nav>
   </div>
 </div>
