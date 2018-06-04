@@ -24,7 +24,9 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item{% if page.url contains site.blog_url %} active{% endif %}" href="{{ site.baseurl }}{{ site.blog_url }}">Blog</a>
+      {% if site.has_blog %}
+        <a class="sidebar-nav-item{% if page.url contains site.blog_url %} active{% endif %}" href="{{ site.baseurl }}{{ site.blog_url }}">Blog</a>
+      {% endif %}
     </nav>
   </div>
 </div>
