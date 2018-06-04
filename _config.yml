@@ -21,3 +21,16 @@ has_blog:         True
 paginate:         1
 paginate_path:    "/blog/page:num/"
 blog_url:        "/blog/"
+
+# Configure prose
+prose:
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
