@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Teaching
+published: true
 ---
 
 In the past, I've taught numerous courses. Some of them are:
 
-* [Fall 2016 Math 135 Ordinary Differential Equations] (/teaching/course1/)
+* [Fall 2016 Math 135 Ordinary Differential Equations](/teaching/course1/)
 
 ## A New Post
 
